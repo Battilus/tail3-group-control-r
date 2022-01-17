@@ -15,12 +15,15 @@
     border-radius: 2px;
   }
 
-  .svg-btn-img {
+  .groupSelector-svg-btn-img {
     @apply inline-block fill-current leading-4 stroke-current stroke-0
   }
 
-  .svg-btn {
+  .groupSelector-svg-btn {
     @apply flex text-gray-300 p-1.5 transition-colors box-border
+  }
+  .groupSelector-active {
+    @apply border-black text-black shadow-md transition duration-300
   }
 }
 
